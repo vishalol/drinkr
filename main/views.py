@@ -56,6 +56,6 @@ def index(request):
 		file = open(os.path.join(BASE_DIR, 'pima.pickle'), 'rb')
 		load_model = pickle.load(file)
 		result =load_model.predict(df)
-		return render(request,'main/index.html',{'res':True, 'result':result[0]*100})
+		return render(request,'main/index.html',{'res':True, 'result':"{:.2f}".format(result[0]*100)})
 	return render(request,'main/index.html',{})
 
