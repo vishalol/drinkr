@@ -4,7 +4,7 @@ Based on a survey on 'Alchohol Consumption in college', we present you a respons
 
 #### Link to webapp: https://mydrinkr.herokuapp.com/
 
-#### More details about the methodology and models can be found in the [Project Report]() 
+#### More details about the methodology and models can be found in the [Project Report](https://github.com/VishalCR7/drinkr/blob/master/Survey%20on%20Consumption%20of%20Alcohol(Final).pdf) 
 
 
 
